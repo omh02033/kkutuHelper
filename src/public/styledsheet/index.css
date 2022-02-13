@@ -1,0 +1,95 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background: #000000cc;
+    color: #fff;
+}
+
+#findContainer {
+    width: 50%;
+    height: 80px;
+    background: #ffffff33;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 15px;
+}
+#fieldBox {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#findBox {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#findBox input[type="text"] {
+    outline: none;
+    width: 70%;
+    height: 70%;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#findBox input[type="submit"] {
+    outline: none;
+    width: 25%;
+    height: 70%;
+    border: none;
+    border-radius: 15px;
+    background: #47a647;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#wordBox {
+    height: 70%;
+    width: 50%;
+    overflow: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#wordTable {
+    border: 1px solid #00000033;
+    border-collapse: collapse;
+    width: 100%;
+}
+#wordTable td {
+    border: 1px solid #00000033;
+    text-align: center;
+    color: #fff;
+}
+
+#learnBox {
+    width: 40%;
+    height: 50px;
+    background: #ffffff33;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#learnBox input[type="text"] {
+    width: 60%;
+    height: 50%;
+    outline: none;
+    border: none;
+}
+#learnBox input[type="submit"] {
+    width: 30%;
+    height: 50%;
+    outline: none;
+    border: none;
+}

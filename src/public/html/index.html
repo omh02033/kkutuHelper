@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>끄투 도우미</title>
+    <link rel="stylesheet" href="/styledsheet/index.css">
+</head>
+<body>
+    <form id="findContainer" onsubmit="findWord(this, event);">
+        <div id="fieldBox">
+            <div>
+                <input type="radio" name="ES" id="S" checked value="S">
+                <label for="S">한글 끝말잇기</label>
+            </div>
+            <div>
+                <input type="radio" name="ES" id="E" value="E">
+                <label for="E">한글 앞말잇기</label>
+            </div>
+        </div>
+        <div id="findBox">
+            <input type="text" name="word" id="fword">
+            <input type="submit" value="찾기">
+        </div>
+    </form>
+    <div id="wordBox">
+        <table id="wordTable">
+            <tbody id="wordT"></tbody>
+        </table>
+    </div>
+    <form id="learnBox" onsubmit="learnWord(this, event);">
+        <input type="text" name="word" id="lword">
+        <input type="submit" value="배우기">
+    </form>
+    <script src="/js/index.js"></script>
+</body>
+</html>
